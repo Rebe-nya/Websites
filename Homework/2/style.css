@@ -1,0 +1,48 @@
+body {
+    background-image: url("bg.webp"); /* Kde se nachází obrázek */
+    background-repeat: no-repeat; /* Žádné opakování obrázku */
+    background-attachment: fixed; /* Uchycení obrázku */
+    background-position: center; /* Pozice obrázku */
+    background-size: cover; /* Velikost obrázku */
+    font-family: Arial, Helvetica, sans-serif; /* Font textu (bezpatkový) */
+}   
+img {
+    width: 312px; /* Šířka  */
+    float: left; /* Umožní textu se nacházet vedle obrázku */
+    margin-right: 20px; /* velikost mezery */
+    margin-top: 10px;
+}
+h1 {
+    font-size: 50px; /* Velikost textu */
+    text-align: left; /* Zarovnání */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+p {
+    color: white;
+    text-shadow: 2px 2px black; /* Stín textu */
+    font-size: 25px;
+    text-align: justify;
+    margin-bottom: -15px;
+}
+a {
+    color: white;
+}
+/* Styl pro určitý odstavec */
+#para1 {
+    font-style: italic;
+    color: rgb(224, 224, 224);
+}
+#para2 {
+    margin-top: 450px;
+    margin-bottom: -30px;
+}
+/* Styl pro více odstavců */
+.para1 {
+    width: 1400px;
+}
+.para2 {
+    font-size: 20px;
+    margin-top: 30px;
+
+}
