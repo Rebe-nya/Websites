@@ -1,16 +1,32 @@
 body{
     background-color: rgb(22, 22, 22);
-    color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+h1{
+    transition: color 0.4s ease-in;
+}
+h1:hover{
+    color: red;
+    transition: color 0.4s ease-in;
 }
 .navbar ul{
     list-style-type: none;
+    overflow: hidden;
 }
-a{
-    height: 100px;
-    width: 100px;
-    border: solid #b6b6b6;
+.navbar a{
+    border-radius: 20px;
+    color: black;
     background-color: #b6b6b6;
     text-align: center;
     display: block;
+    padding: 15px;
+    transition: background-color 0.5s ease-in;
+}
+.navbar a:hover{
+    background-color: rgb(219, 219, 219);
+    transition: background-color 0.5s ease-in;
+}
+#s{
+    color: red;
 }
