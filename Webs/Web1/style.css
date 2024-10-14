@@ -5,32 +5,36 @@ body{
 }
 h1{
     transition: color 0.4s ease-in;
-    width: 50px;
     margin: 0px;
-}
-h1:hover{
-    color: red;
-    transition: color 0.4s ease-in;
+    max-width: fit-content;
+    font-size: 50px;
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    border-radius: 15px;
 }
 .navbar ul{
     list-style-type: none;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar a{
+    font-size: 25px;
     border-radius: 15px;
     color: black;
-    background-color: #b6b6b6;
-    display: block;
+    background-color: rgb(136, 136, 136);
+    display: flex;
     padding: 15px;
     transition: background-color 0.5s ease-in;
-    margin: 5px;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 25px;
+    font-weight: bold;
 }
 .navbar a:hover{
     background-color: rgb(219, 219, 219);
     transition: background-color 0.5s ease-in;
-}
-.navbar li{
-    float: left;
-
 }
