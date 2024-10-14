@@ -5,6 +5,8 @@ body{
 }
 h1{
     transition: color 0.4s ease-in;
+    width: 50px;
+    margin: 0px;
 }
 h1:hover{
     color: red;
@@ -15,18 +17,20 @@ h1:hover{
     overflow: hidden;
 }
 .navbar a{
-    border-radius: 20px;
+    border-radius: 15px;
     color: black;
     background-color: #b6b6b6;
-    text-align: center;
     display: block;
     padding: 15px;
     transition: background-color 0.5s ease-in;
+    margin: 5px;
+    text-decoration: none;
 }
 .navbar a:hover{
     background-color: rgb(219, 219, 219);
     transition: background-color 0.5s ease-in;
 }
-#s{
-    color: red;
+.navbar li{
+    float: left;
+
 }
