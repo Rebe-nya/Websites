@@ -1,7 +1,16 @@
 body{
     background-color: rgb(22, 22, 22);
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+.navbar ul{
+    list-style-type: none;
+}
+a{
+    height: 100px;
+    width: 100px;
+    border: solid #b6b6b6;
+    background-color: #b6b6b6;
+    text-align: center;
+    display: block;
 }
