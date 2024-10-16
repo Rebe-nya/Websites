@@ -3,9 +3,18 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     margin: 0;
-    padding: 0;
 }
 
+.top_grid {
+    grid-template-columns: auto 1fr;
+    background-color: rgb(31, 30, 30);
+    width: 100%;
+    height: auto;
+    display: grid;
+    align-items: center;
+}
+
+/*
 .top {
     background-color: rgb(31, 30, 30);
     width: 100%;
@@ -14,19 +23,19 @@ body {
     align-items: center;
     display: flex;
 }
+*/
 
 .logo {
     transition: color 0.4s ease-in;
-    position: fixed;
     max-width: fit-content;
     font-size: 50px;
-    display: flex;
     background-color: red;
     padding: 10px;
     border-radius: 15px;
-    margin: 10px;
     font-weight: bold;
     transition: color 0.5s ease;
+    grid-column: 1;
+    margin: 10px;
 }
 
 .logo:hover {
@@ -36,6 +45,8 @@ body {
 
 .search-bar {
     display: flex;
+    grid-column: 2;
+    justify-self: center;
 }
 
 .search-bar input {
